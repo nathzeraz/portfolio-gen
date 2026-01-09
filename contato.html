@@ -7,7 +7,10 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Contato</title>
 </head>
 
@@ -30,10 +33,6 @@
     </header>
 
     <!-- Seção Principal da Página (main) -->
-    <main>
-
-        
-    <!-- Seção Principal da Página (main) -->
     <main class="main_contato">
 
         <!-- Seção do Formulário -->
@@ -53,22 +52,28 @@
 
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" placeholder="Digite sua Mensagem"></textarea>
-            
+
             <button type="submit">Enviar</button>
         </form>
 
         <!-- Seção do Google Maps -->
-        <article>
+        <article class="article_mapa">
 
             <address>
-		        <p>Cachoeirinha - RS</p>
-             </address>
+                <p>Cachoeirinha - RS</p>
+            </address>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110663.24937347282!2d-51.09510595000004!3d-29.915379599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519722abb5e0dab%3A0x30b08253f7d32c93!2sCachoeirinha%2C%20RS!5e0!3m2!1sen!2sbr!4v1767808281453!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110663.24937347282!2d-51.09510595000004!3d-29.915379599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519722abb5e0dab%3A0x30b08253f7d32c93!2sCachoeirinha%2C%20RS!5e0!3m2!1sen!2sbr!4v1767808281453!5m2!1sen!2sbr"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
         </article>
-
-    </main>
-
 
     </main>
 
@@ -92,11 +97,14 @@
 
         </section>
 
-		<h3>
-			Feito com 🧡 por Generation Brasil - 2025
-		</h3>
+        <h3>
+            Feito com 🧡 por Generation Brasil - 2025
+        </h3>
 
     </footer>
+
+    <!-- Script JavaScript-->
+    <script src="assets/js/script.js"></script>
 
 </body>
 
